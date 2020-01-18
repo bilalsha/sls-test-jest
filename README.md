@@ -22,6 +22,9 @@ $ touch env.yml
 $ npm test
 ````
 
+## Jest
+Used [@globalSetup](https://jestjs.io/docs/en/configuration#globalsetup-string) and [@globalTearDown](globalTeardown) to run and stop serverless offline application
+
 ## Running locally
 - Start serverless offline
 ````
