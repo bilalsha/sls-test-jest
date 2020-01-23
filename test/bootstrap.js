@@ -12,7 +12,7 @@ module.exports = async () => {
 };
 
 function startSlsOffline() {
-	slsOfflineProcess = slsOfflineProcess = spawn('sls', [ 'offline', 'start', '--port', 3005 ]);
+	slsOfflineProcess = slsOfflineProcess = spawn('serverless', [ 'offline', '--port', 3005 ]);
 
 	return finishLoading();
 }
