@@ -1,4 +1,4 @@
-# Serverless Testing With Jest Examples
+# Serverless Testing With Node, Jest Examples
 This repository illustrates some strategies to test apps built using [Serverless framework](https://github.com/serverless/serverless).
 
 ## Setup
