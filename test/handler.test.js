@@ -5,6 +5,6 @@ describe('get Endpoints', () => {
 	test('should run get example', async () => {
 		const res = await server.get('/example');
 		expect(res.statusCode).toEqual(200);
-		expect(res.body.message).toEqual('Go Serverless v1.0! Your function executed successfully!');
+		expect(res.body).toEqual('Go Serverless v1.0! Your function executed successfully!');
 	});
 });
