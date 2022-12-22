@@ -9,7 +9,7 @@
 		"cross-env": "^6.0.3",
 		"serverless-bundle": "^1.2.5",
 		"serverless-dotenv-plugin": "^2.1.1",
-		"serverless-offline": "^5.3.3",
+		"serverless-offline": "^12.0.3",
 		"supertest": "^4.0.2"
 	},
 	"type": "module",
